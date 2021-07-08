@@ -11,7 +11,7 @@ print("Starting script....")
 stock_data = {}
 financial_data = {}
 project_url = '<project_url>'
-headers = {"Content-Type":"application/json", "Authorization":"Bearer 8f699fab753a3163cbb056cc2a3e6f9e22c05d8f125d5a1a"}
+headers = {"Content-Type":"application/json", "Authorization":"<bearer>"}
 
 def get_sector_name(base_url, ticker):
 	request_url = base_url + "/data_point?"
